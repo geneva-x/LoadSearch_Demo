@@ -1,0 +1,68 @@
+ALTER TABLE IB_Search_Geneva
+
+ADD subject_code INT,
+ADD PRIMARY KEY (subject_code),
+ADD needVisionCorrection TEXT,
+ADD useVisionCorrection TEXT,
+
+ADD start_time TEXT,
+ADD total_time TEXT,
+ADD nTrials TEXT,
+ADD condition_pload TEXT,
+ADD condition_cload TEXT,
+
+ADD stimulus_duration TEXT,
+
+ADD ib_choiceOptions TEXT,
+ADD ib_unexpectedObject TEXT,
+ADD items_string TEXT,
+ADD items_location TEXT,
+
+ADD practice_targetIdentity TEXT,
+ADD practice_response TEXT,
+ADD practice_responseAccuracy TEXT,
+ADD practice_responseTime TEXT,
+ADD practice_memoryIdentity TEXT,
+ADD practice_memoryResponse TEXT,
+ADD practice_memoryAccuracy TEXT,
+
+ADD normal_targetIdentity TEXT,
+ADD normal_response TEXT,
+ADD normal_responseAccuracy TEXT,
+ADD normal_responseTime TEXT,
+ADD normal_memoryIdentity TEXT,
+ADD normal_memoryResponse TEXT,
+ADD normal_memoryAccuracy TEXT,
+
+ADD accuracy_preCritical TEXT,
+
+ADD critical_targetIdentity TEXT,
+ADD critical_response TEXT,
+ADD critical_responseAccuracy TEXT,
+ADD critical_responseTime TEXT,
+ADD critical_memoryIdentity TEXT,
+ADD critical_memoryResponse TEXT,
+ADD critical_memoryAccuracy TEXT,
+ADD notice_critical TEXT,
+ADD choice_critical TEXT,
+
+ADD divided_targetIdentity TEXT,
+ADD divided_response TEXT,
+ADD divided_responseAccuracy TEXT,
+ADD divided_responseTime TEXT,
+ADD divided_memoryIdentity TEXT,
+ADD divided_memoryResponse TEXT,
+ADD divided_memoryAccuracy TEXT,
+ADD notice_divided TEXT,
+ADD choice_divided TEXT,
+
+ADD full_targetIdentity TEXT,
+ADD full_response TEXT,
+ADD full_responseAccuracy TEXT,
+ADD full_responseTime TEXT,
+ADD full_memoryIdentity TEXT,
+ADD full_memoryResponse TEXT,
+ADD full_memoryAccuracy TEXT,
+
+ADD notice_full TEXT,
+ADD choice_full TEXT;
